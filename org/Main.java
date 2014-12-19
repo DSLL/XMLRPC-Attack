@@ -16,9 +16,8 @@ public class Main
     
     public static void main(final String[] args) {
         if (args.length != 4) {
-            System.out.println("XMLRPC Pingback - Written by Crusader");
-            System.out.println("http://ssyn.pl/");
-            System.out.println("twitter: @crusaderthegod");
+            System.out.println("XMLRPC Pingback - Written by DSLL");
+            System.out.println("Github: https://github.com/DSLL");
             System.out.println("Usage: <target> <threads> <list> <time>");
             return;
         }
@@ -26,9 +25,8 @@ public class Main
         Main.threads = Integer.parseInt(args[1]);
         AttackManager.load(args[2]);
         Main.time = Integer.parseInt(args[3]);
-        System.out.println("XMLRPC Pingback - Written by Crusader");
-        System.out.println("http://ssyn.pl/");
-        System.out.println("twitter: @crusaderthegod");
+        System.out.println("XMLRPC Pingback - Written by DSLL");
+        System.out.println("Github: https://github.com/DSLL");
         new Thread() {
             public void run() {
                 try {
